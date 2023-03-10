@@ -1,4 +1,10 @@
-/* Background image */
+/*=============== body tag css ===============*/
+
+body{
+    overflow-x: hidden;
+}
+
+/*=============== Background image ===============*/
 .div1 {
     background-image: url("./assets-psd/bg.png");
     background-position: 0%;
@@ -9,12 +15,12 @@
 
 }
 
-/* Ancher tag css */
+/*=============== Ancher tag css ===============*/
 .div1 a {
     font-family: 'Gotham Rounded', sans-serif;
 }
 
-/* Paragraph tag css */
+/*=============== Paragraph tag css ===============*/
 .div1para p {
     font-size: 26px;
     letter-spacing: 5px;
@@ -26,7 +32,7 @@
     padding-top: 200px;
 }
 
-/* Button css for div 1 */
+/*=============== Button css for div 1 ===============*/
 .div1para button {
     width: 166px;
     height: 49px;
@@ -37,7 +43,7 @@
     font-family: 'Gotham Rounded', sans-serif;
 }
 
-/* Seperate css for social media images */
+/*=============== Seperate css for social media images ===============*/
 .div2 img1 {
     width: 23px;
     height: 20px;
@@ -60,14 +66,14 @@
 
 }
 
-/* social media alignment */
+/*=============== social media alignment ===============*/
 .div2 img {
     padding-top: 230px;
     align-items: center;
 
 }
 
-/* Alignments for page 2 */
+/*=============== Alignments for page 2 ===============*/
 .page2 {
     width: 1280px;
     height: 494px;
@@ -77,7 +83,7 @@
     justify-content: space-around;
 }
 
-/* Designing for page 2 contents */
+/*=============== Designing for page 2 contents ===============*/
 
 .page2 h4 {
     font-size: 18px;
@@ -92,7 +98,7 @@
     width: 450px;
 }
 
-/* Page para tag css */
+/*=============== Page para tag css ===============*/
 .page2 p {
 
     font-size: 12px;
@@ -103,7 +109,7 @@
 
 }
 
-/* Page 2 button css */
+/*=============== Page 2 button css ===============*/
 .page2 button {
     width: 192px;
     height: 51px;
@@ -113,7 +119,7 @@
     border-color: #16a085;
 }
 
-/* Alignments for page 3 */
+/*=============== Alignments for page 3 ===============*/
 .page3 {
     width: 1280px;
     height: 550px;
@@ -123,7 +129,7 @@
     justify-content: space-around;
 }
 
-/* Page3 heading css */
+/*=============== Page3 heading css ===============*/
 .page3 h4 {
     font-size: 18px;
     letter-spacing: 3px;
@@ -132,9 +138,10 @@
     color: #16a085;
     font-weight: bold;
     font-family: 'Gotham Rounded', sans-serif;
+    padding-top: 150px;
 }
 
-/* page 3 para tag css */
+/*=============== page 3 para tag css ===============*/
 .page3 p {
     font-size: 12px;
     letter-spacing: 2px;
@@ -143,8 +150,8 @@
     font-family: 'Gotham Rounded', sans-serif;
 }
 
-/* Page 3 button css */
-.page3 button {
+/*=============== Page 3 button css ===============*/
+.page3 .btn {
     width: 192px;
     height: 51px;
     background-color: #16a085;
@@ -153,7 +160,20 @@
     border-color: #16a085;
 }
 
-/* Page 3 heading (h5) */
+.page3 .carousel {
+    width: 152px;
+    height: 21px;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+
+/*=============== Page 3 heading (h5) ===============*/
 .page3 h5 {
     font-size: 12px;
     letter-spacing: 2px;
@@ -164,7 +184,7 @@
     font-family: 'Gotham Rounded', sans-serif;
 }
 
-/* Page 3 para css (class="p1") */
+/*=============== Page 3 para css (class="p1") ===============*/
 .page3 .p1 {
 
     height: 16px;
@@ -173,7 +193,41 @@
     font-size: 30px;
 }
 
-/* page 4 alignment */
+/*=============== Carousel css ===============*/
+
+.carousel{
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+button.carousel-control-next {
+    left: 35px;
+}
+
+.carousel{
+    position: relative;
+    margin-left: -5px;
+}
+
+/*=============== page 4 alignment ===============*/
 .page4 {
     width: 1280px;
     height: 483px;
@@ -187,12 +241,12 @@
     padding-bottom: 120px;
 }
 
-/* Page 4 img alignment */
+/*=============== Page 4 img alignment ===============*/
 .page4 .txt img {
     padding-left: 50px;
 }
 
-/* page 4 heading css (h4) */
+/*=============== page 4 heading css (h4) ===============*/
 .page4 .txt h4 {
     font-size: 16px;
     letter-spacing: 2px;
@@ -204,7 +258,7 @@
 
 }
 
-/* Page 4 para css (class="p1") */
+/*=============== Page 4 para css (class="p1") ===============*/
 .page4 .p1 {
 
     height: 16px;
@@ -214,12 +268,12 @@
     font-size: 25px;
 }
 
-/* Page 4 image padding */
+/*=============== Page 4 image padding ===============*/
 .page4 .img12 {
     padding-bottom: 38px;
 }
 
-/* Page 5 space allocation and postioning */
+/*=============== Page 5 space allocation and postioning ===============*/
 .page5 {
     background-image: url("./assets-psd/Livello\ 3.png");
     background-position: 0%;
@@ -230,7 +284,7 @@
     background-color: #323232;
 }
 
-/* Page 5 heading (h3) */
+/*=============== Page 5 heading (h3) ===============*/
 .page5 h3 {
     font-size: 24px;
     letter-spacing: 4px;
@@ -242,7 +296,7 @@
     padding-top: 23%;
 }
 
-/* Page 5 input group css */
+/*=============== Page 5 input group css ===============*/
 .page5 .input-group {
     margin-left: 500px;
 
@@ -263,7 +317,7 @@
     background-color: #ffffff;
 }
 
-/* page 6 alignment */
+/*=============== page 6 alignment ===============*/
 
 .page6 {
     /* position: absolute; */
@@ -272,13 +326,13 @@
     background-color: #f5f6f7;
     padding-top: 100px;
 }
-/* Page 6 text alignment */
+/*=============== Page 6 text alignment ===============*/
 .page6 .text {
     display: block;
     margin-left: 220px;
 
 }
-/* /* Page 3 heading css (h4) */ */
+/*=============== Page 3 heading css (h4) ===============*/
 .page6 h4 {
     margin-left: 330px;
     font-size: 20px;
@@ -288,7 +342,7 @@
     font-weight: bold;
     font-family: 'Gotham Rounded', sans-serif;
 }
-/* Page 6 para css */
+/*=============== Page 6 para css ===============*/
 .page6 p {
     width: 877px;
     height: 178px;
@@ -303,7 +357,7 @@
     margin-bottom: -3rem;
 }
 
-/* Page 6 button css */
+/*=============== Page 6 button css ===============*/
 .page6 #btn {
     margin-left: 170px;
 }
@@ -316,7 +370,7 @@
     color: #ffffff;
 }
 
-/* Footer css */
+/*=============== Footer css=============== */
 
 footer {
     display: flex;
@@ -349,3 +403,11 @@ footer {
 footer .footer-left p span {
     color: #1abc9c;
 }
+
+
+
+
+*, ::after, ::before {
+    box-sizing: border-box; 
+}
+

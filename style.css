@@ -1,0 +1,351 @@
+/* Background image */
+.div1 {
+    background-image: url("./assets-psd/bg.png");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 750px;
+    background-size: cover;
+
+}
+
+/* Ancher tag css */
+.div1 a {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* Paragraph tag css */
+.div1para p {
+    font-size: 26px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* Button css for div 1 */
+.div1para button {
+    width: 166px;
+    height: 49px;
+    border-radius: 3.7px;
+    margin-left: 43%;
+    background-color: #16a085;
+    color: #ffffff;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* Seperate css for social media images */
+.div2 img1 {
+    width: 23px;
+    height: 20px;
+    background-color: #ffffff;
+}
+
+.div2 img2 {
+    width: 23px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+
+.div2 img3 {
+    width: 20px;
+    height: 21px;
+    border-radius: 6px;
+    background-color: #ffffff;
+
+}
+
+/* social media alignment */
+.div2 img {
+    padding-top: 230px;
+    align-items: center;
+
+}
+
+/* Alignments for page 2 */
+.page2 {
+    width: 1280px;
+    height: 494px;
+    background-color: #f5f6f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Designing for page 2 contents */
+
+.page2 h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #16a085;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.page2 .img1 img {
+    width: 450px;
+}
+
+/* Page para tag css */
+.page2 p {
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #373737;
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
+
+/* Page 2 button css */
+.page2 button {
+    width: 192px;
+    height: 51px;
+    border-radius: 5px;
+    background-color: #16a085;
+    color: #ffffff;
+    border-color: #16a085;
+}
+
+/* Alignments for page 3 */
+.page3 {
+    width: 1280px;
+    height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Page3 heading css */
+.page3 h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #16a085;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* page 3 para tag css */
+.page3 p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* Page 3 button css */
+.page3 button {
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: #ffffff;
+    border-radius: 4px;
+    border-color: #16a085;
+}
+
+/* Page 3 heading (h5) */
+.page3 h5 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* Page 3 para css (class="p1") */
+.page3 .p1 {
+
+    height: 16px;
+    color: #000000;
+    text-decoration-line: none;
+    font-size: 30px;
+}
+
+/* page 4 alignment */
+.page4 {
+    width: 1280px;
+    height: 483px;
+    background-color: #f5f6f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Page 4 img alignment */
+.page4 .txt img {
+    padding-left: 50px;
+}
+
+/* page 4 heading css (h4) */
+.page4 .txt h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
+
+/* Page 4 para css (class="p1") */
+.page4 .p1 {
+
+    height: 16px;
+    color: #000000;
+    margin-left: 300px;
+    text-decoration-line: none;
+    font-size: 25px;
+}
+
+/* Page 4 image padding */
+.page4 .img12 {
+    padding-bottom: 38px;
+}
+
+/* Page 5 space allocation and postioning */
+.page5 {
+    background-image: url("./assets-psd/Livello\ 3.png");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 700px;
+    background-size: cover;
+    background-color: #323232;
+}
+
+/* Page 5 heading (h3) */
+.page5 h3 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+    padding-left: 450px;
+    padding-top: 23%;
+}
+
+/* Page 5 input group css */
+.page5 .input-group {
+    margin-left: 500px;
+
+}
+
+.page5 button {
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #16a085;
+    color: #ffffff;
+}
+
+.page5 input {
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* page 6 alignment */
+
+.page6 {
+    /* position: absolute; */
+    width: 1280px;
+    height: 396px;
+    background-color: #f5f6f7;
+    padding-top: 100px;
+}
+/* Page 6 text alignment */
+.page6 .text {
+    display: block;
+    margin-left: 220px;
+
+}
+/* /* Page 3 heading css (h4) */ */
+.page6 h4 {
+    margin-left: 330px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+/* Page 6 para css */
+.page6 p {
+    width: 877px;
+    height: 178px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: 500;
+    font-family: 'Gotham Rounded', sans-serif;
+    text-align: center;
+    margin-bottom: -3rem;
+}
+
+/* Page 6 button css */
+.page6 #btn {
+    margin-left: 170px;
+}
+
+.page6 button {
+    width: 240px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+/* Footer css */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: bold;
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding-left: 120px;
+}
+
+.footer-right img {
+    width: 70px;
+    height: 70px;
+    margin-right: 120px;
+}
+
+footer .footer-left p span {
+    color: #1abc9c;
+}
